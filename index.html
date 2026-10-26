@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Comunicado Corporativo TMAZ</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <style>
@@ -104,6 +109,9 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom, 0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:9px 14px;border-radius:8px;font-size:13px;z-index:20}
 </style>
 
+<style>body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>
+</head>
+<body>
 <div class="app">
   <aside>
     <div>
@@ -426,3 +434,6 @@ const hoy=new Date(); $('fechaIn').value=hoy.getFullYear()+'-'+String(hoy.getMon
 if(!load()) applyTpl(TPL.aviso);
 rescale(); applyK();
 </script>
+
+</body>
+</html>
